@@ -5,7 +5,7 @@ import axios from "axios"
 
 export default function Home() {
 
-  const [tasks, setTasks] = useState([])
+  const [tasks, setTasks] = useState<any[]>([])
 
   const [title, setTitle] = useState("")
   const [description, setDescription] = useState("")
